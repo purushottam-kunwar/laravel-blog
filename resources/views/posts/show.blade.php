@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('content')
-    <div class="container">
+    <div>
         <h1> {{ $post->title }}</h1>
         <p> {{ $post->body }}</p>
     </div>

@@ -25,13 +25,6 @@
 @include('layout.nav')
 
 <div class="container">
-    <div class="class-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description"> An Example of blog template build with Bootstrap</p>
-    </div>
-</div>
-
-<div class="container">
     <div class="row">
         <div class="col-sm-10">
             @yield('content')
