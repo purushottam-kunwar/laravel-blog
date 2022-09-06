@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
     <title>Album example for Bootstrap</title>
 
@@ -19,40 +18,29 @@
             crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
-    <link href="/resources/css/album.css" rel="stylesheet">
+    <link href="/resources/css/blog.css" rel="stylesheet">
 </head>
 
 <body>
+@include('layout.nav')
 
-<header>
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other
-                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
-                        Then, link them off to some social networking sites or contact information.</p>
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                        <li><a href="#" class="text-white">Like on Facebook</a></li>
-                        <li><a href="#" class="text-white">Email me</a></li>
-                    </ul>
-                </div>
-            </div>
+<div class="container">
+    <div class="class-header">
+        <h1 class="blog-title">The Bootstrap Blog</h1>
+        <p class="lead blog-description"> An Example of blog template build with Bootstrap</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10">
+            @yield('content')
+        </div>
+        <div class="col-sm-2">
+            @include('layout.sidebar')
         </div>
     </div>
-
-    @include('layout.nav')
-
-</header>
-
-<main role="main">
-    @yield('content')
-</main>
+</div>
 
 @include('layout.footer')
 
