@@ -1,11 +1,12 @@
 <div class="container">
-    <div class="blog-masthead">
-        <nav class="nav blog-nav">
-            <a class="nav-link active" href="#">Home </a>
-            <a class="nav-link" href="#">New Feature </a>
-            <a class="nav-link" href="#">Press </a>
-            <a class="nav-link" href="#">New Hires </a>
-            <a class="nav-link" href="#">About </a>
+    <div>
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="nav-link active">Home </a>
+            <a class="nav-link">New Feature </a>
+            <a class="nav-link">Press </a>
+            <a class="nav-link">New Hires </a>
+            <a class="nav-link">About </a>
         </nav>
     </div>
 </div>
+<br>

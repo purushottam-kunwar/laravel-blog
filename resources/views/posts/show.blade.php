@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h1> A place to show blog.</h1>
+        <h1> {{ $post->title }}</h1>
+        <p> {{ $post->body }}</p>
     </div>
 @endsection
