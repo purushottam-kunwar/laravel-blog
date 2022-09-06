@@ -1,5 +1,8 @@
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
     <div class="container">
+        <!-- Toggle button -->
         <button
             class="navbar-toggler"
             type="button"
@@ -12,33 +15,44 @@
             <i class="fas fa-bars"></i>
         </button>
 
+        <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
                 <img
-                    src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                    height="15"
+                    src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164225/572.png"
+                    height="100"
                     alt="MDB Logo"
                     loading="lazy"
                 />
             </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">New Feature</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Press</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">New Hire</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+            <!-- Left links -->
+{{--            <ul class="navbar-nav">--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Dashboard</a>--}}
+{{--                </li>--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Team</a>--}}
+{{--                </li>--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Projects</a>--}}
+{{--                </li>--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Projects</a>--}}
+{{--                </li>--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Projects</a>--}}
+{{--                </li>--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#">Projects</a>--}}
+{{--                </li>--}}
+
+{{--            </ul>--}}
+            <!-- Left links -->
         </div>
+        <!-- Collapsible wrapper -->
+        <!-- Right elements -->
     </div>
+    <!-- Container wrapper -->
 </nav>
-<br>
+<!-- Navbar -->

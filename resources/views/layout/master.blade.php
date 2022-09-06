@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Album example for Bootstrap</title>
+    <title>My Application</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
 
@@ -30,7 +30,7 @@
             @yield('content')
         </div>
         <div class="col-sm-2">
-            @include('layout.sidebar')
+{{--            @include('layout.sidebar')--}}
         </div>
     </div>
 </div>
