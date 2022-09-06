@@ -14,6 +14,11 @@
             <textarea class="form-control" id="body" name="body"></textarea>
         </div>
 
-        <button type="submit" class="btn btn-default">Publish</button>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Publish</button>
+        </div>
+
+        @include('layout.errors')
+
     </form>
 @endsection
