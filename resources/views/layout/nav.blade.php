@@ -18,7 +18,7 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/">
                 <img
                     src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164225/572.png"
                     height="100"
@@ -27,27 +27,27 @@
                 />
             </a>
             <!-- Left links -->
-{{--            <ul class="navbar-nav">--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Dashboard</a>--}}
-{{--                </li>--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Team</a>--}}
-{{--                </li>--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Projects</a>--}}
-{{--                </li>--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Projects</a>--}}
-{{--                </li>--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Projects</a>--}}
-{{--                </li>--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#">Projects</a>--}}
-{{--                </li>--}}
+            {{--            <ul class="navbar-nav">--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Dashboard</a>--}}
+            {{--                </li>--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Team</a>--}}
+            {{--                </li>--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Projects</a>--}}
+            {{--                </li>--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Projects</a>--}}
+            {{--                </li>--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Projects</a>--}}
+            {{--                </li>--}}
+            {{--                <li class="nav-item">--}}
+            {{--                    <a class="nav-link" href="#">Projects</a>--}}
+            {{--                </li>--}}
 
-{{--            </ul>--}}
+            {{--            </ul>--}}
             <!-- Left links -->
         </div>
         <!-- Collapsible wrapper -->
