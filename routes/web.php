@@ -14,8 +14,8 @@ Route::get('/register', 'App\Http\Controllers\RegistrationController@create');
 Route::post('/register', 'App\Http\Controllers\RegistrationController@store');
 
 
-
-
 Route::get('/login', 'App\Http\Controllers\SessionController@create');
 Route::post('/login', 'App\Http\Controllers\SessionController@store');
 Route::get('/logout', 'App\Http\Controllers\SessionController@destroy');
+
+Route::get('/post/tag/{id}', 'App\Http\Controllers\TagsController@index');
