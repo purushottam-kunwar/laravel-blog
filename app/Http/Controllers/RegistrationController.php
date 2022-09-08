@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserRegistrationFormRequest;
 use App\Mail\Welcome;
 use App\Models\User;
 use Illuminate\Support\Facades\Mail;
@@ -13,15 +14,8 @@ class RegistrationController extends Controller
         return view('registration.create');
     }
 
-    public function store()
+    public function store(UserRegistrationFormRequest $request)
     {
-        // Validate the form
-        $this->validate(request(),
-            [
-                'name' => 'required',
-                'email' => 'required|email',
-                'password' => 'required|confirmed',
-            ]);
 
         //Hash password
         // todo
