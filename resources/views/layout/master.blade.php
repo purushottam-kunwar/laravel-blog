@@ -30,7 +30,7 @@
             @yield('content')
         </div>
         <div class="col-sm-2">
-{{--            @include('layout.sidebar')--}}
+            @include('layout.sidebar')
         </div>
     </div>
 </div>
