@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Welcome;
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class RegistrationController extends Controller
 {
@@ -31,6 +32,8 @@ class RegistrationController extends Controller
 
         // Sign in
         auth()->login($user);
+
+        Mail::to($user)->send(new Welcome($user));
 
 
         // Redirect the logged user
