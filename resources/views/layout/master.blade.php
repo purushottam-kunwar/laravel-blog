@@ -24,6 +24,13 @@
 <body>
 @include('layout.nav')
 
+@if($flash = session('message'))
+    <div class="alert alert-success flash-message" role="alert">
+        {{ $flash }}
+    </div>
+@endif
+
+
 <div class="container">
     <div class="row">
         <div class="col-sm-10">
