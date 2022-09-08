@@ -27,27 +27,18 @@
                 />
             </a>
             <!-- Left links -->
-            {{--            <ul class="navbar-nav">--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Dashboard</a>--}}
-            {{--                </li>--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Team</a>--}}
-            {{--                </li>--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Projects</a>--}}
-            {{--                </li>--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Projects</a>--}}
-            {{--                </li>--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Projects</a>--}}
-            {{--                </li>--}}
-            {{--                <li class="nav-item">--}}
-            {{--                    <a class="nav-link" href="#">Projects</a>--}}
-            {{--                </li>--}}
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                @if(\Illuminate\Support\Facades\Auth::check())
+                    <li class="nav-item">
+                        <a class="nav-link  ml-auto" href="#">{{ \Illuminate\Support\Facades\Auth::user()->name }}</a>
+                    </li>
+                @endif
 
-            {{--            </ul>--}}
+
+            </ul>
             <!-- Left links -->
         </div>
         <!-- Collapsible wrapper -->
